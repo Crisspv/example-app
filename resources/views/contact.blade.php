@@ -11,15 +11,15 @@
         <ul>
             <li>
             <label for="name">Nombre:</label>
-            <input type="text" id="name" name="user_name" />
+            <input type="text" id="name" name="nombre" />
             </li>
             <li>
             <label for="mail">Correo electrónico:</label>
-            <input type="email" id="mail" name="user_email" />
+            <input type="email" id="mail" name="correo" />
             </li>
             <li>
             <label for="msg">Mensaje:</label>
-            <textarea id="msg" name="user_message"></textarea>
+            <textarea id="msg" name="mensaje"></textarea>
             </li>
             <button type="submit">
                 enviar

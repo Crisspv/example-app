@@ -12,5 +12,6 @@ Route::get('/home', function () {
     return view('home');
 });
 
+Route::get('/mensajes', [MensajeController::class, 'index']);
 Route::get('/contact', [MensajeController::class, 'create']);
 Route::post('/crear-contacto', [MensajeController::class, 'store']);
